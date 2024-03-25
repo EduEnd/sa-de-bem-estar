@@ -1,0 +1,90 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    min-height: 200px; /* Altura mínima do cabeçalho */
+}
+
+.imagem-topo {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagem-topo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.conteudo {
+    margin-top: 20px; /* Margem superior para o conteúdo */
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/*Formato de todas as tag h1 com fonte e tamanho da fonte*/
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+/*Cor dos icones e das tags h1*/
+.inicio i, h1{
+    color: black;
+}
+/*Cor e tamanho das fontes das tags p*/
+.inicio p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*display do conteiner inicio*/
+.inicio{
+    display: flex;
+}
+/*posicionamento da tag h1 do conteiner inicio*/
+.inicio h1{
+    margin-top: 40%;
+    margin-left: 30%;
+}
+/*posicionamento da tag p do conteiner inicio*/
+.inicio p{
+    margin-top: 53%;
+    margin-left: -65%;
+}
+/*posicionamento dos icones do conteiner inicio*/
+.inicio i{
+    margin-top: 40%;
+    margin-left: 0%;
+    font-size: 80px;
+}
+/* Media query para telas menores */
+@media screen and (max-width: 600px) {
+    /*Formato a fonte do título para telas menores */
+    h1 {
+        font-size: 50px;
+    }
+
+    /*Formato a fonte do parágrafo para telas menores */
+    .inicio p {
+        font-size: 26px;
+    }
+
+    /*Ajuste de espaçamento entre o ícone e o título para telas menores */
+    .inicio i {
+        margin-top: 20px;
+    }
+
