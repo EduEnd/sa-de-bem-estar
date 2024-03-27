@@ -4,20 +4,34 @@
     padding:0;
 }
 /*Formatção do body da pagina, com imagem de fundo e suas propriedades*/
-body{
+.pag01{
     background-image:url(../imagens/pessoas-correndo-ao-ar-livre.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     min-height: 100vh;
 }
+.saudetrabalho{
+    background-image: url(../imagens/trabalho_G.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    min-height: 100vh;
+    background-position: top center;
+    background-size: 100% 450px; 
+}
+
 /*reponsividade do corpo da pagina*/
 @media only screen and (max-width: 600px) {
-    body {
+    .pag01 {
         font-size: 14px;
         background-size: auto;
         background-repeat: no-repeat;
-        background-size: cover;
+
+    }
+    .saudetrabalho{
+        background-size: auto;
+        background-repeat: no-repeat;
     }
 }
 /*Formato de todas as tag h1 com fonte e tamanho da fonte*/
@@ -201,4 +215,12 @@ div p{
     font: size 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+.texto p, .texto h1{
+    color: black;
+
+}
+.texto{
+    margin-top:35%;
+    margin-left: -62%;
 }
