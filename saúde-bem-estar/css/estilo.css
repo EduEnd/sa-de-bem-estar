@@ -18,7 +18,7 @@
     display: flex;
     min-height: 100vh;
     background-position: top center;
-    background-size: 100% 450px; 
+    background-size: 100% 450px;
 }
 
 /*reponsividade do corpo da pagina*/
@@ -85,7 +85,6 @@ h1{
     .inicio i {
         margin-top: 20px;
     }
-
 }
 /*Formato da barra de pesquisa com tamanho, posição e outras propriedades de layot*/
 .buscar-box{
@@ -218,9 +217,11 @@ div p{
 }
 .texto p, .texto h1{
     color: black;
+    font-family: Arial, sans-serif;
 
 }
 .texto{
     margin-top:35%;
-    margin-left: -62%;
+    margin-left: 0%;
+    padding: 2%;
 }
